@@ -4,7 +4,8 @@
     font-family: 'Gilroy-Regular';
     color: 000;
     font-size: 16px;
-   
+    /* min-width: 1720px; */
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +20,9 @@ ul, li {
 
 .container {
     margin: 0 6.25em;
+    margin: 0 auto;
+    padding: 0 6.25em;
+    max-width: 1720px;
 }
 
 .header {
@@ -26,7 +30,7 @@ ul, li {
 }
 
 
-#circlehead {
+#circleheadmain {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -35,6 +39,7 @@ ul, li {
     border-radius: 60px;
     background: #D92C04;
     transform: matrix(0, 1, 1, 0, 0, 0);
+    animation: preload 1.5s 0s;
 }
 
 .logo {
@@ -114,9 +119,9 @@ p {
     bottom:9px;
 }
 
-.case {
+/* .case {
     margin-left: 138px;
-}
+} */
 
 .About {
     margin-left: 0px;
@@ -137,7 +142,7 @@ p {
     padding-top: 90px;
     display: flex; 
     max-width: 100vw; 
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-family: 'Gilroy-Regular';
     flex-grow: 0;
 }
@@ -158,7 +163,7 @@ p {
     width: 53;
     height: 58;
     margin-top: 40px;
-    padding-bottom: 95px;
+    padding-bottom: 75px;
 }
 
 footer a {
@@ -173,13 +178,14 @@ footer a {
     opacity: 0.5;
 }
 
+#footerline {
+    width: 107.5em;
+}
+
 ul {
     padding-inline-start: 0px;
     margin-block-start: 0px;
-}
-
-li {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .logotips {
@@ -208,7 +214,6 @@ li {
     line-height: 24px;
     color: #181818;  
     opacity: 1;
-    margin-top: 123px;
 }
 
 .s5 {
@@ -262,7 +267,8 @@ section {
 .ystr11 {
     position: absolute;
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -278,7 +284,8 @@ section {
 
 .ystr12 {
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -294,7 +301,8 @@ section {
 .ystr21 {
     position: absolute;
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -310,7 +318,8 @@ section {
 
 .ystr22 {
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -326,7 +335,8 @@ section {
 .ystr31 {
     position: absolute;
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -342,7 +352,8 @@ section {
 
 .ystr32 {
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -368,7 +379,7 @@ section {
 }
 
 .WhiteElipsText {
-    margin-right: 214px;
+    /* margin-right: 214px; */
     margin-top: 179px;
     margin-left: 40px;
     margin-bottom: 40px;
@@ -387,7 +398,8 @@ section {
 .pstr11 {
     position: absolute;
     height: 563px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteElips2.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -403,7 +415,8 @@ section {
 
 .pstr12 {
     height: 563px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteElips2.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -419,7 +432,8 @@ section {
 .pstr21 {
     position: absolute;
     height: 563px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteElips2.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -435,7 +449,8 @@ section {
 
 .pstr22 {
     height: 563px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteElips2.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -451,7 +466,8 @@ section {
 .pstr31 {
     position: absolute;
     height: 563px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteElips2.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -467,7 +483,8 @@ section {
 
 .pstr32 {
     height: 563px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteElips2.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -488,6 +505,8 @@ section {
 }
 
 .WhiteElipeSmallText {
+    width: 20.700em;
+    height: 84px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -564,13 +583,14 @@ section {
     margin-left: 574px;
     border-radius: 25px;
     height: 644px;
-    width: 1146px;
+    width: 71.625em;
 }
 
 .sstr11 {
     position: absolute;
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -586,7 +606,8 @@ section {
 
 .sstr12 {
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -602,7 +623,8 @@ section {
 .sstr21 {
     position: absolute;
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -618,7 +640,8 @@ section {
 
 .sstr22 {
     height: 263px;
-    width: 563px;
+    width: 18.767em;
+    border-radius: 25px;
     background: url('../img/WhiteEllips.svg') no-repeat center top / cover;
     font-style: normal;
     font-weight: 600;
@@ -632,7 +655,432 @@ section {
 }
 
 #ourteam {
-    width: 1720px;
+    width: 107.5em;
     height: 600px;
     margin-bottom: 360px;
 }
+
+.podvalmenu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100%;
+    max-width: 100vw; 
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+.logoheader {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181818;
+    margin-left: 34px;
+    margin-right: 557px;
+}
+
+li a {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Regular';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    opacity: 0.5;
+    margin-left: 0;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nav:hover .podvalmenu {
+    display: flex;
+}
+
+
+#circlehead {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    background: #D92C04;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.Tel {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181818;  
+    opacity: 1;
+    padding-bottom: 116px;
+}
+
+.menu-open {
+    display: none;
+    background: none;
+    border: block;
+}
+
+
+
+@media screen and (max-width: 1919px) {
+    .container {
+        width: 1200px;
+    }
+    header a {
+        margin-left: 8%;
+    }
+    .logo {
+        margin-right: 18%;
+    }
+
+    .logoheader {
+        margin-right: 18%;
+    }
+
+    .podvalmenu {
+        margin: 0 auto;
+        padding: 0 6.25em;
+    }
+
+    .lowh {
+        width: 10%;
+    }
+    .ystr11 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .ystr12 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .ystr21 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .ystr22 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .ystr31 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .ystr32 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .circleyslygi {
+        margin: 183px 40px 40px 80%;
+    }
+
+    .pstr11 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .pstr12 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .pstr21 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .pstr22 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .pstr31 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .pstr32 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .WhiteElipeSmallText {
+        width: 15em;
+    }
+
+    .circleproducts {
+        width: 4.8em;
+        margin-left: 62%;
+    }
+
+    .price {
+        font-size: 21px;
+        margin: 16px 26px;
+    }
+
+    .sstr11 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .sstr12 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .sstr21 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .sstr22 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    #stydteam {
+        height: 35em;
+        width: 52.2em;
+        margin-left: 11.988em;
+    }
+
+    #ourteam {
+        height: 100%;
+        width: 100%;
+    }
+
+    #footerline {
+        height: 100%;
+        width: 100%;
+    }
+
+    .logotips {
+        margin-right: 25%;
+    }
+
+    .Top {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 425px;
+        margin: 0 auto;
+        padding: 0 1em
+    }
+
+    header a {
+        margin-left: 8%;
+        display: none;
+    }
+
+    .header .show-header-a {
+        display: block;
+        position: absolute;
+        background: 0 0 0 0 4;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 40px 20px 20px 40px;
+    }
+    
+    .logo {
+        margin-right: 18%;
+    }
+
+    .logoheader {
+        margin-right: 18%;
+    }
+
+    .podvalmenu {
+        margin: 0 auto;
+        padding: 0 6.25em;
+    }
+
+    .lowh {
+        width: 10%;
+    }
+    .ystr11 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .ystr12 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .ystr21 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .ystr22 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .ystr31 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .ystr32 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .circleyslygi {
+        margin: 183px 40px 40px 80%;
+    }
+
+    .pstr11 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .pstr12 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .pstr21 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .pstr22 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .pstr31 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .pstr32 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .WhiteElipeSmallText {
+        width: 15em;
+    }
+
+    .circleproducts {
+        width: 4.8em;
+        margin-left: 62%;
+    }
+
+    .price {
+        font-size: 21px;
+        margin: 16px 26px;
+    }
+
+    .sstr11 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .sstr12 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    .sstr21 {
+        width: 415px;
+        margin-left: 10%;
+    }
+
+    .sstr22 {
+        width: 415px;
+        margin-left: 51%;
+    }
+
+    #stydteam {
+        height: 35em;
+        width: 52.2em;
+        margin-left: 11.988em;
+    }
+
+    #ourteam {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    footer {
+
+    }
+
+    #footerline {
+
+    }
+
+    .logotips {
+        margin-right: 25%;
+    }
+
+    .Top {
+        margin-right: 100px;
+    }
+    ul, li {
+        display: table-row-group;
+    }
+
+    .menu-open {
+        font-size: 40px;
+        text-align: right;
+        color: #ffff;
+        margin-left: 100px;
+        display: flex;
+    }
+
+  
+    
+}
+
+
+
+/* @keyframes preload {
+    from {
+        margin-top: -100px;
+        margin-left: -100px;
+        width: 1920px;
+        height: 1920px;
+    }
+    to {
+        width: 24px;
+        height: 24px;
+    }
+} */
